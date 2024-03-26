@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+header{
+    border: solid black;
+    position: relative;
+    
+}
+
+section{
+    border: solid black;
+    margin: 10px;
+}
+
+footer {
+    border: solid black;
+    text-align: center;
+    margin: 10px;
+}
+
+button{
+    position: relative;
+
+}
+
+.inline-block{
+    display: inline-block;
+
+}
+
+div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+h2 {
+    border-bottom: solid black;
+    margin: 5px;
+}
+
+p {
+    margin: 5px;
+}
+
+.content{
+    height: 50px;
+}
+
+.author{
+    font-style: italic;
+}
