@@ -3,12 +3,11 @@ const titleInput = document.querySelector('#title');
 const contentInput = document.querySelector('#content');
 const sumitButton = document.querySelector('#sumit');
 
-//add even handler on the submit button to prevent the default behavior , which is reloading the page.
-sumitButton.addEventListener('click', function (event) {
-//   event.preventDefault();
-window.location.href("blog.html");
-}
 
+
+// sumitButton.addEventListener('click', function (event) {
+//     event.preventDefault();
+//      window.location.href = "blog.html";
   // create user object from submission
 const user = {
     username: usernameInput.value.trim(),
@@ -19,3 +18,17 @@ const user = {
    // set new submission to local storage
    localStorage.setItem('user', JSON.stringify(user));
   
+//add even handler on the submit button to prevent the default behavior , which is reloading the page.
+
+usernameInput.value != null
+titleInput.value != null
+contentInput.value != null
+
+ if (usernameInput.value && titleInput.value && contentInput.value) {
+    sumitButton.addEventListener('click', function (event) {
+        event.preventDefault();
+         window.location.href = "blog.html";
+     })
+
+else {alert("please complete the form")};
+ }
