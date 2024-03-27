@@ -21,12 +21,12 @@ sumitButton.addEventListener("click", function (event) {
   // set new submission to local storage
   localStorage.setItem("user", JSON.stringify(userintry));
 
-
-//   if ((usernameInput.value == null || usernameInput.value == "") && (titleInput.value == null || titleInput.value == "") && (contentInput.value == null || contentInput.value == "")
-//     {alert("Please Fill In All Fields");}
-//     else {window.location.href = "blog.html";}
+//To Check of the value of the entry is null or empty, sent the alter message if it is the case.
+  if ((usernameInput.value == null || usernameInput.value == "") && (titleInput.value == null || titleInput.value == "") && (contentInput.value == null || contentInput.value == "")
+    {alert("Please Fill In All Fields");}
+    else {window.location.href = "blog.html";}
   
-  window.location.href = "blog.html";
+//   window.location.href = "blog.html";
 });
 
 //

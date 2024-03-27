@@ -28,4 +28,11 @@ backbtn.addEventListener('click', function (event) {
     window.location.href = "index.html";
 })
 
+
+// const sunbtn = document.querySelector('#sun');
+// sunbtn.addEventListener('click', function (event) {
+//     document.querySelector(`body`).style.backgroundColor="dark";
+//     document.querySelector(`body`).style.font="white";
+//  })
+
   
