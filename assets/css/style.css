@@ -29,6 +29,7 @@ height: 67vh;
     height: 67vh;
     padding-top: 15%;
     
+    
 }
 
 
@@ -66,7 +67,11 @@ h1 {
 
  h2 {
     text-align: center;
+    
 
  }
 
+ body{
+    justify-content: space-evenly;
+ }
 
