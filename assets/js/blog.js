@@ -26,13 +26,29 @@ const backbtn = document.querySelector('#back');
 backbtn.addEventListener('click', function (event) {
    event.preventDefault();
     window.location.href = "index.html";
-})
+});
 
 
-// const sunbtn = document.querySelector('#sun');
-// sunbtn.addEventListener('click', function (event) {
-//     document.querySelector(`body`).style.backgroundColor="dark";
-//     document.querySelector(`body`).style.font="white";
-//  })
+// Access toggle switch HTML element
+const lightDarkMode = document.querySelector('#light-Dark-Mode');
+const global = document.querySelector('.global');
+
+// Set default mode to dark
+let mode = 'dark';
+
+// Listen for a click event on toggle switch
+lightDarkMode.addEventListener('click', function () {
+  // If mode is dark, apply light background
+  if (mode === 'dark') {
+    mode = 'light';
+    global.setAttribute('class', 'light');
+  }
+  // If mode is light, apply dark background
+  else {
+    mode = 'dark';
+    global.setAttribute('class', 'dark');
+  }
+});
+
 
   

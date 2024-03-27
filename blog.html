@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Blog, form</title>
-    <link rel="stylesheet" href="./assets/css/form.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/form.css" />
+  </head>
+  <body class="global dark">
     <header>
-        <h1>My First Blog</h1>
-        <div>
-            <button class="inline-block" id="back"> <span>&#8592;</span>back</button>
-            <p id="sun"  class="inline-block">☀️</p>
-        </div>
-    </header>
-    <main id="blogs">
+      <h1>My First Blog</h1>
+      <div>
+        <button class="inline-block" id="back"><span>&#8592;</span>back</button>
+        <label class="switchmode col">
+          <input type="checkbox" id="light-Dark-Mode"/>
+          <span class="slider round"></span>
+        </label>
+      </div>
 
-    </main>
+    </header>
+    <main id="blogs"></main>
     <footer>Made with ❤️ by Arnaud Tiam</footer>
-   <script src="./assets/js/blog.js"></script>
-</body>
+
+    <script src="./assets/js/blog.js"></script>
+  </body>
 </html>
