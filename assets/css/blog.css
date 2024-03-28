@@ -1,3 +1,12 @@
+/*To reset some paramters*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+
 /* Dark Mode */
 .dark {
   background-color:#243447;
@@ -15,12 +24,7 @@
 }
 
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  position: relative;
-}
+
 
 header{
     border: solid black;
@@ -76,11 +80,9 @@ p {
     margin: 5px;
 }
 
-.content{
-    height: 50px;
-}
 
-.author{
-    font-style: italic;
+
+.footer2 li{
+    list-style-type: none;
 }
 
