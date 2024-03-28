@@ -15,6 +15,7 @@ https://atiam.github.io/two-page-blog-site_Arnaud-Tiam/
 
 ## Images
 The blogs looks like this;
+
 -first pages/landing page:
 ![alt text](https://github.com/Atiam/two-page-blog-site_Arnaud-Tiam/blob/main/assets/images/FirstPage.png)
 
