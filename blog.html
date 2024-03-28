@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First Blog, form</title>
-    <link rel="stylesheet" href="./assets/css/form.css" />
-  </head>
-  <body class="global dark">
-    <header>
-      <h1>My First Blog</h1>
-      <div>
-        <button class="inline-block" id="back"><span>&#8592;</span>back</button>
-        <label class="switchmode col">
-          <input type="checkbox" id="light-Dark-Mode"/>
-          <span class="slider round"></span>
-        </label>
-      </div>
 
-    </header>
-    <main id="blogs"></main>
-    <footer>Made with ❤️ by Arnaud Tiam</footer>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Blog, form</title>
+  <link rel="stylesheet" href="./assets/css/blog.css" />
+</head>
 
-    <script src="./assets/js/blog.js"></script>
-  </body>
+<body class="global dark">
+  <header>
+    <h1>My First Blog</h1>
+    <div>
+      <button class="inline-block" id="back"><span>&#8592;</span>back</button>
+      <button id="light-Dark-Mode">light Dark Mode</button>
+    </div>
+  </header>
+  <main id="blogs"></main>
+  <footer>
+    <div class="footer1">Made with ❤️ by Arnaud Tiam</div>
+    <div class="footer2">
+      <ul id="space-evently">
+        <!--The user will click and it will dial the phone number-->
+        <li>
+          <!--The user will click and it will direct to my githup repo-->
+          <a href="https://atiam.github.io/employees-portfolio_Arnaud-Tiam/"><span>portfolio: </span></a>Arnaud Tiam</a>
+        </li>
+        <!--The user will click and it will direct to the email-->
+        <li>
+          <!--The user will click and it will direct to my githup repo-->
+          <a href="https://atiam.github.io/two-page-blog-site_Arnaud-Tiam/"><span>Blog: </span></a>Full-Stack Block</a>
+        </li>
+
+        <li>
+          <a href="mailto:arnaudtiam50@gmail.com"><span>Email: </span>arnaudtiam@gmail.com</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </footer>
+
+  <script src="./assets/js/blog.js"></script>
+</body>
+
 </html>

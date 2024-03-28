@@ -18,7 +18,7 @@ sumitButton.addEventListener("click", function (event) {
   };
 
 //push the user object into userentry array
-  userentry.push(user);
+userentry.push(user);
 
 
 //To Check of the value of the entry is null or empty, sent the alter message if it is the case.
