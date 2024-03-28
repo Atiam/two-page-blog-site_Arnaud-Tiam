@@ -19,6 +19,7 @@ The blogs looks like this:
 
 ![alt text](https://github.com/Atiam/two-page-blog-site_Arnaud-Tiam/blob/main/assets/images/SecondPage.png)
 
+![alt text](https://github.com/Atiam/two-page-blog-site_Arnaud-Tiam/blob/main/assets/images/SecondPagesDarkMode.png)
 
 
 ## License
