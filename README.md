@@ -13,6 +13,14 @@ The code has been validated using the Markup Validation Service (https://validat
 To access the website, click on this link:
 https://atiam.github.io/two-page-blog-site_Arnaud-Tiam/
 
+## Images
+The blogs looks like this:
+![alt text](https://github.com/Atiam/two-page-blog-site_Arnaud-Tiam/blob/main/assets/images/FirstPage.png)
+
+![alt text](https://github.com/Atiam/two-page-blog-site_Arnaud-Tiam/blob/main/assets/images/SecondPage.png)
+
+
+
 ## License
 This project is MIT licensed.
 
